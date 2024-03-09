@@ -23,9 +23,6 @@ Weather App is designed to fetch and display real-time weather data from various
 - CSS3
 - JavaScript
 
-## Installation
-
-No installation required for the live demo. Simply visit the [website](https://www.weatherapp.com) to use it.
 
 ## Usage
 
