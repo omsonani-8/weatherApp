@@ -1,21 +1,21 @@
-# My Website
+# Weather App
 
-Welcome to My Website! This is a simple landing page to showcase my project.
+Welcome to Weather App! This is a simple web application that provides current weather information for different locations.
 
 ## Live Demo
 
-You can check out the live demo of the website https://omsonani-8.github.io/weatherApp/
+You can check out the live demo of the weather app https://omsonani-8.github.io/weatherApp/
 
 ## Description
 
-This website serves as a platform to display information about my project. It includes a brief introduction, features, and contact information.
+Weather App is designed to fetch and display real-time weather data from various locations. It offers users the ability to search for weather information based on city names or zip codes.
 
 ## Features
 
-- Clean and minimalistic design
-- Responsive layout for various devices
-- Easy navigation
-- Contact form for inquiries
+- Get current weather conditions (temperature, humidity, wind speed, etc.)
+- Search for weather by city name 
+- Responsive design for mobile and desktop devices
+- Intuitive user interface
 
 ## Technologies Used
 
@@ -23,20 +23,14 @@ This website serves as a platform to display information about my project. It in
 - CSS3
 - JavaScript
 
-
-
 ## Installation
 
-No installation required for the live demo. Simply visit the [website](https://www.example.com) to view it.
+No installation required for the live demo. Simply visit the [website](https://www.weatherapp.com) to use it.
 
 ## Usage
 
-Feel free to navigate through the website to explore its features.
+1. Enter a city name in the search bar.
+2. Click on the "Search" button or press Enter.
+3. View the current weather information for the specified location.
+4. Repeat the process to search for weather in other locations.
 
-## Support
-
-For any inquiries or issues, you can reach out to me at [email@example.com](mailto:email@example.com).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
