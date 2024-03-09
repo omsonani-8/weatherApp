@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>
+            WEATHER APP
+        </h1>
+        <div class="tab-container">
+            <p class="tab" data-userWeather> your weather</p>
+            <p class="tab" data-searchWeather>search weather</p> 
+        </div>
+
+        <div class="weather-container">
+
+            <!-- grant location container -->
+            <div  class=" sub-container grant-location-container">
+                <img src="./Love babbar/Mini Projects - Class 3 [Codes]/Lecture28 - Weather App/images/location.png" alt="location image" height="80" width="80"  loading="lazy">
+                <p>Grant Location Access</p>
+                <p>Allow Access to get weather Information</p>
+                <button data-grantBtn class="btn">Grant Access</button>
+            </div>
+
+            <!-- search filed -->
+
+            <form class="form-container" data-searchForm>
+                <input placeholder="Search for City..." data-searchInput >
+                <button class="" type="submit">
+                    <img src="./Love babbar/Mini Projects - Class 3 [Codes]/Lecture28 - Weather App/images/search.png "  width="20" height="20" loading="lazy">
+                </button>
+            </form>
+            <!-- loading container -->
+            <div class="sub-container loading-container">
+                <img src="./Love babbar/Mini Projects - Class 3 [Codes]/Lecture28 - Weather App/images/loading.gif" width="150" height="150">
+                <p>Loading</p>
+            </div>
+
+            <!-- show weather info container -->
+
+            <div class="sub-container user-info-container">
+
+                <!--city name and Flag-->
+                <div class="name">
+                    <p data-cityName></p>
+                    <img data-countryIcon>
+                </div>
+
+                <!-- weather descriptuion-->
+                <p data-weatherDesc></p>
+                <!--weather Icon-->
+                <img data-weatherIcon>
+                <!--temperature-->
+                <p data-temp></p>
+
+                <!--3 cards - parameters-->
+                <div class="parameter-container">
+
+                    <!--card 1-->
+                    <div class="parameter">
+                        <img src="./Love babbar/Mini Projects - Class 3 [Codes]/Lecture28 - Weather App/images/wind.png" >
+                        <p>windspeed</p>
+                        <p data-windspeed></p>
+                    </div>
+
+                    <!--card 2-->
+                    <div class="parameter">
+                        <img src="./Love babbar/Mini Projects - Class 3 [Codes]/Lecture28 - Weather App/images/humidity.png" >
+                        <p>humidity</p>
+                        <p data-humidity></p>
+                    </div>
+
+                    <!--card 3-->
+                    <div class="parameter">
+                        <img src="./Love babbar/Mini Projects - Class 3 [Codes]/Lecture28 - Weather App/images/cloud.png" >
+                        <p>Clouds</p>
+                        <p data-cloudiness></p>
+                    </div>
+
+                </div>
+
+
+
+        </div>
+        <div class="notfound" data-notFound>
+            <img src="./Love babbar/Mini Projects - Class 3 [Codes]/Lecture28 - Weather App/images/not-found.png" alt="Data is not found ">
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
